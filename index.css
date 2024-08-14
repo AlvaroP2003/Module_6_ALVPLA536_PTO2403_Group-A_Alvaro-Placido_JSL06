@@ -19,7 +19,6 @@ header {
 
 header h1 {
     font-size: 2rem;
-    margin-bottom: 0.5rem;
 }
 
 header p {
@@ -53,18 +52,18 @@ main {
 
 #menu h3, #order h2 {
     font-size: 1.5rem;
-    margin-bottom: 1rem;
 }
 
 #menu ul, #order ul {
     list-style: none;
-    padding: 0;
+    padding: .5rem 0rem;
 }
 
 #menu li, #order li {
-    margin-bottom: 0.5rem;
+    font-size: 1rem;
     cursor: pointer;
     transition: background-color 0.3s ease; /* Add this for the animation */
+    padding: .3rem 0rem;
 }
 
 #order-total {
